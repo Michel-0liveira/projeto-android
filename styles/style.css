@@ -42,6 +42,7 @@ header {
     text-align: center;
     color: white;
     min-height: 150px;
+    width: 100%;
     padding-top: 40px;
 }
 
@@ -214,7 +215,7 @@ footer a:hover {
     
 }
 
-@media (max-width: 435px) {
+@media (min-width: 0) and (max-width: 435px) {
     nav {
         display: flex;
         flex-direction: column;
